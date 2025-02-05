@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    object-fit: cover;
+    border-radius: 0px;
+    align-content: center;
+}
+
+footer {
+    position: relative;
+
+    max-width: 100%;
+    left: 0 ;
+    right: 0   ;
+    width: 100vw;
+    margin: 0;
+    background: linear-gradient(100deg, #f6ece4, #f7f4f2);
+    color: #d126a4;
+    padding: 40px 50px;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+   
+    margin: 0px; 
+    border-radius: 1px;
+}
+
+.logo {
+
+    position: absolute;
+    
+
+    font-family: "Noto Serif Todhri", serif;
+    
+    color: #cf7719;
+    font-weight: normal;
+    font-size: 25px;
+    justify-content: center;  
+    object-fit: cover;
+    top: 0;  
+    left: 0; 
+    margin-left: -45px;
+     
+    
+}
+
+.logo img {
+    /* width: 200px; */
+    /* height: 200px; */
+    width: 150px;
+    height: 150px;
+    
+
+    
+}
+
+.logo span {
+    font-size: 20px;
+    color: #15020d;
+    font-family: roboto;
+    font-weight: 100;
+    width: 90px;
+    height: auto;
+   
+}
+
+
+.nav {
+    list-style: none;
+    padding: 50px;
+}
+
+.nav li {
+    margin: 25px 5px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #1e0202;
+    font-weight: 500;
+    transition: color 0.3s, transform 0.3s;
+    cursor: pointer;
+    text-align: justify;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.nav a:hover {
+    color: #2c0fe5;
+    transform: translateX(5px);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 1.5rem;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #2a0b91;
+    transform: scale(1.2);
+}
+
+
+.scroll-to-top {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.scroll-to-top:hover {
+    background: #8b6f4f;
+    transform: scale(1.1);
+}
+.R span a{
+
+    color: #13071b;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: roboto;
+    
+}
+.image-gallery {
+    display: flex;
+    justify-content: flex-start; /* Align images from left to right */
+    align-items: flex-start; /* Ensure images stay at the top */
+    gap: 5px; /* Small gap between images */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    width: 100%; /* Full width */
+    /* overflow-x: auto; Allow horizontal scrolling if images overflow */
+    /* padding: 10px 0; */
+    /* background: #f8f9fa; Optional: adjust as needed */
+}
+
+.image-gallery img {
+    width: 100px; /* Adjust image width */
+    height: 100px; /* Adjust image height */
+    object-fit: cover; /* Ensure images fit within dimensions */
+    border-radius: 10px; /* Smooth edges */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1); /* Enlarge the image slightly on hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Enhance the shadow on hover */
+}
+
+
+.footer-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding: 10px; /* Adds space from edges */
+    text-align: right;
+}
